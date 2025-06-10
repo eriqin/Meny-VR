@@ -1,0 +1,87 @@
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px 20px 20px !important;
+  padding-top: 50px !important;
+  font-family: Archer;
+  color: white;
+  background: linear-gradient(to bottom, #544ae5 0%, #12299b 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card_1 {
+      width: 300px;
+      height: 200px;
+      min-height: 200px;
+      min-width: 215px;
+      border-radius: 8px;
+      background-color: #fff;
+      overflow: hidden;
+}
+.card_2 {
+      width: 300px;
+      height: 200px;
+      min-height: 200px;
+      min-width: 215px;
+      border-radius: 8px;
+      background-color: #fff;
+      overflow: hidden;
+}
+.card_3 {
+      width: 300px;
+      height: 200px;
+      min-height: 200px;
+      min-width: 215px;
+      border-radius: 8px;
+      background-color: #fff;
+      overflow: hidden;
+}
+.card-content {
+      padding: 50px;
+}
+.card-title {
+      font-size: 1.5em;
+      margin: 0 0 8px;
+      color: #333;
+}
+.card-footer {
+      padding: 25px;
+      text-align: center;
+      align-content: baseline;
+}
+.card-footer a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+}
+.card-footer:active {
+      background-color: #aeb0ae;
+}
+.button {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border: 50px; 
+      margin: 80px 150px 0px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      display: inline-block;
+}
+
+.button:active {
+      background-color: #aeb0ae;
+}
